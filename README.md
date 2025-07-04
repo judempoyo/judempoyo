@@ -98,4 +98,4 @@ Have suggestions or want to collaborate? [Let's talk!](mailto:mpoyojude0@gmail.c
 
 ## 📄 License
 
-All my open-source projects are available under the MIT [LICENSE](LICENSE) — see individual repos for details.
+All my open-source projects are available under the  [MIT LICENSE](LICENSE) — see individual repos for details.
