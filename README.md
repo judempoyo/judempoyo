@@ -11,7 +11,7 @@ Welcome to my GitHub profile! I’m passionate about building robust, scalable w
 ## 🚀 About Me
 
 - 🌍 **Based in:** DR Congo  
-- 🛠️ **Expertise:** PHP, Laravel, Flutter, Vue.Js, C++, JavaScript, MySQL  
+- 🛠️ **Expertise:** PHP, Laravel, Flutter, Vue.Js, C++, MySQL  
 - 🌱 **Currently learning:** Vue.Js & Docker  
 - 🤝 **Open to:** Collaboration on innovative web & mobile projects  
 - ⚡ **Philosophy:** "First solve the problem, then write the code."  
@@ -98,4 +98,4 @@ Have suggestions or want to collaborate? [Let's talk!](mailto:mpoyojude0@gmail.c
 
 ## 📄 License
 
-All my open-source projects are available under the MIT License — see individual repos for details.
+All my open-source projects are available under the MIT [LICENSE](LICENSE) — see individual repos for details.
