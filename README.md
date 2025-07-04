@@ -4,7 +4,7 @@ Welcome to my GitHub profile! I’m passionate about building robust, scalable w
 
 [![Profile Views](https://komarev.com/ghpvc/?username=judempoyo&label=Profile+Views&color=58A6FF&style=flat)](https://github.com/judempoyo)
 [![Top Developer in DRC](https://user-badge.committers.top/congo_kinshasa/judempoyo.svg)](https://user-badge.committers.top/congo_kinshasa/judempoyo)
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=judempoyo&theme=vue-dark&hide_border=true)](https://github.com/judempoyo)
+
 
 ---
 
@@ -55,6 +55,7 @@ Welcome to my GitHub profile! I’m passionate about building robust, scalable w
 </div>
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=judempoyo&theme=vue-dark&hide_border=true)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=judempoyo&theme=vue-dark&hide_border=true)](https://github.com/judempoyo)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=judempoyo&theme=vue-dark&hide_border=true&layout=compact)
 
 ---
@@ -62,7 +63,7 @@ Welcome to my GitHub profile! I’m passionate about building robust, scalable w
 ## 🌟 Featured Projects
 
 - **Portfolio Website**  
-  [judempoyo.github.io/JudeMpoyo-site](https://judempoyo.github.io/JudeMpoyo-site/)  
+  [judempoyo.vercel.app](https://judempoyo.vercel.app)  
   _A showcase of my skills, projects, and journey in web development._
 
 - **Explore more projects:**  
