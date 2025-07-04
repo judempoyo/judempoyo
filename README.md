@@ -74,7 +74,7 @@ Welcome to my GitHub profile! I’m passionate about building robust, scalable w
 ## 🤝 How to Collaborate
 
 - Interested in working together?  
-  - Check out my [ideas.txt](https://github.com/judempoyo/JudeMpoyo/blob/main/ideas.md) for project ideas or propose your own!
+  - Check out my [ideas.md](https://github.com/judempoyo/JudeMpoyo/blob/main/ideas.md) for project ideas or propose your own!
   - Found a bug or want to discuss? [Open an issue](https://github.com/judempoyo/JudeMpoyo/issues)
 - Contributions, discussions, and feedback are always welcome!
 
