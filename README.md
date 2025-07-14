@@ -21,11 +21,11 @@ Welcome to my GitHub profile! I’m passionate about building robust, scalable w
 
 ## 🛠️ Tech Stack
 
-**Frontend:**  
+**Frontend: **  
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white) 
 ![Livewire](https://img.shields.io/badge/Livewire-4E56A6?logo=livewire&logoColor=white) 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white) 
-![Vue.Js](https://img.shields.io/badge/Vue.js-35495E?logo=vuedotjs&logoColor=white)
+![VueJs](https://img.shields.io/badge/Vue.js-35495E?logo=vuedotjs&logoColor=white)
 
 **Backend:**  
 ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white) 
