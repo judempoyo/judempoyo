@@ -11,7 +11,7 @@ Welcome to my GitHub profile! I’m passionate about building robust, scalable w
 ## 🚀 About Me
 
 - 🌍 **Based in:** Kolwezi, DR Congo  
-- 🛠️ **Expertise:** PHP, Laravel, Flutter, Vue.Js, C++, MySQL  
+- 🛠️ **Expertise:** PHP, Laravel, , Vue.Js, C++, Flutter  
 - 🌱 **Currently learning:** Vue.Js & Docker  
 - 🤝 **Open to:** Collaboration on innovative web & mobile projects  
 - ⚡ **Philosophy:** "First solve the problem, then write the code."  
