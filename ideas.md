@@ -1,1 +1,4 @@
 # My ideas
+
+1. GitHub project card (to show GitHub repository as project card with tailwindcss)
+2. 
