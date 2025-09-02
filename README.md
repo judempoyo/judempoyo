@@ -1,5 +1,3 @@
-# 👋 Hi, I'm Jude Mpoyo — Web & Mobile Developer
-
 # Welcome to my GitHub profile! 👋
 
 I’m **Jude Mpoyo**, a full-stack developer passionate about building **robust, scalable web and mobile applications** using modern technologies and clean code principles.  
