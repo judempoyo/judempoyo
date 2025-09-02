@@ -1,6 +1,10 @@
 # 👋 Hi, I'm Jude Mpoyo — Web & Mobile Developer
 
-Welcome to my GitHub profile! I’m passionate about building robust, scalable web and mobile applications using modern technologies and clean code principles. Here you'll find my latest projects, my tech journey, and ways to connect or collaborate.
+# Welcome to my GitHub profile! 👋
+
+I’m **Jude Mpoyo**, a full-stack developer passionate about building **robust, scalable web and mobile applications** using modern technologies and clean code principles.  
+
+Here, you’ll find my **latest projects**, my **open-source contributions**, and a glimpse into my **tech journey**. 
 
 [![Profile Views](https://komarev.com/ghpvc/?username=judempoyo&label=Profile+Views&color=58A6FF&style=flat)](https://github.com/judempoyo)
 [![Top Developer in DRC](https://user-badge.committers.top/congo_kinshasa/judempoyo.svg)](https://user-badge.committers.top/congo_kinshasa/judempoyo)
@@ -11,10 +15,12 @@ Welcome to my GitHub profile! I’m passionate about building robust, scalable w
 ## 🚀 About Me
 
 - 🌍 **Based in:** Kolwezi, DR Congo  
-- 🛠️ **Expertise:** PHP, Laravel, , Vue.Js, C++, Flutter  
-- 🌱 **Currently learning:** Vue.Js & Docker  
-- 🤝 **Open to:** Collaboration on innovative web & mobile projects  
-- ⚡ **Philosophy:** "First solve the problem, then write the code."  
+- 🛠️ **Expertise:** PHP, Laravel, , Vue.Js, TypeScript, Flutter  
+- 🌱 **Currently learning:** Docker  
+- 🤝 **Open to:** Collaboration on innovative web & mobile projects
+- 🚀 Interests & ambitions: expanding into **Cloud, AI, and DevOps**
+- 🌍 Driven by impact: crafting solutions that matter and sharing knowledge with the community  
+ - ⚡ **Philosophy:** "First solve the problem, then write the code."  
 - 📫 **Contact:** mpoyojude0@gmail.com | [WhatsApp](https://wa.me/+243975889135)  
 
 ---
