@@ -67,7 +67,7 @@ Here, you’ll find my **latest projects**, my **open-source contributions**, an
 ## 🌟 Featured Projects
 
 - **Portfolio Website**  
-  [judempoyo.vercel.app](https://judempoyo.vercel.app)  
+  [jude.jkantech/jude](https://jude.jkantech/jude)    
   _A showcase of my skills, projects, and journey in web development._
 
 - **Explore more projects:**  
