@@ -67,7 +67,7 @@ Here, you’ll find my **latest projects**, my **open-source contributions**, an
 ## 🌟 Featured Projects
 
 - **Portfolio Website**  
-  [jude.jkantech/jude](https://jude.jkantech/jude)    
+  [jude.jkantech.net/jude](https://jude.jkantech.net/jude)    
   _A showcase of my skills, projects, and journey in web development._
 
 - **Explore more projects:**  
