@@ -4,6 +4,6 @@
 - [ ] Laravel tip project (api+ front end ) for display tips (https://github.com/OussamaMater/Laravel-Tips)
 - [ ] crud view for Laravel project
 - [ ] fresher dev website
-- [ ] acromix api development
+- [x] acromix api development
 
 
