@@ -1,6 +1,6 @@
 # Welcome to my GitHub profile! 👋
 
-I’m **Jude Mpoyo**, a full-stack developer passionate about building **robust, scalable web and mobile applications** using modern technologies and clean code principles.  
+I’m **Jude Mpoyo**, a Full-stack Developer | Open Source | Clean Code Enthusiast | Future-focused on AI, Cloud & DevOps.  
 
 Here, you’ll find my **latest projects**, my **open-source contributions**, and a glimpse into my **tech journey**. 
 
