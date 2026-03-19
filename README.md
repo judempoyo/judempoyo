@@ -3,7 +3,7 @@
 > **[📖 Lire en Français 🇫🇷](#version-française)**
 
 I'm **Jude Mpoyo**  
-_Backend Developer | Open Source | Clean Code | Cloud & DevOps Enthusiast_
+_Fullstack Developer | Open Source | Clean Code | Cloud & DevOps Enthusiast_
 
 [![Profile Views](https://komarev.com/ghpvc/?username=judempoyo&label=Profile+Views&color=38B2AC&style=flat)](https://github.com/judempoyo)
 [![Top Developer in DRC](https://user-badge.committers.top/congo_kinshasa/judempoyo.svg)](https://user-badge.committers.top/congo_kinshasa/judempoyo)
