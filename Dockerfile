@@ -17,14 +17,13 @@ COPY . .
 RUN npm run build && \
     if [ ! -d "dist" ] && [ -d ".output/public" ]; then cp -r .output/public dist; fi
 
-FROM node:alpine
-WORKDIR /app
+FROM php:8.3-apache
+WORKDIR /var/www/html
 
-RUN npm install -g serve
+RUN mkdir -p /data && chown www-data:www-data /data
 
-COPY --from=builder /app/dist /app
+ENV TMPDIR=/data
 
-ENV PORT=3000
-EXPOSE ${PORT}
+COPY --from=builder /app/dist/ /var/www/html/
 
-CMD ["sh", "-c", "serve -s . -l ${PORT:-3000}"]
+EXPOSE 80
