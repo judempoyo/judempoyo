@@ -22,6 +22,18 @@ export interface Project {
 export const useProjects = () => {
     const projects = computed<Project[]>(() => [
         {
+            id: 'smartcyberspace',
+            titleKey: 'projects.smartcyberspace.title',
+            descriptionKey: 'projects.smartcyberspace.description',
+            roleKey: 'projects.smartcyberspace.role',
+            resultKey: 'projects.smartcyberspace.result',
+            detailsKey: 'projects.smartcyberspace.details',
+            stack: ['Laravel 11', 'Vue.js', 'Tailwind CSS', 'Miabi', 'SQL'],
+            metrics: { infraKey: 'projects.smartcyberspace.infra' },
+            isLive: true,
+            liveUrl: 'https://smartcyberspace.ca/'
+        },
+        {
             id: 'uzaraka',
             titleKey: 'projects.uzaraka.title',
             descriptionKey: 'projects.uzaraka.description',
@@ -32,9 +44,7 @@ export const useProjects = () => {
             metrics: {
                 infraKey: 'projects.uzaraka.infra'
             },
-            isLive: true,
-            liveUrl: 'https://www.uzaraka.com',
-            docsUrl: undefined
+            isLive: false
         },
         {
             id: 'miabi',

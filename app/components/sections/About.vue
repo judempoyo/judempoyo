@@ -46,7 +46,7 @@ onBeforeUnmount(() => { window.removeEventListener('keydown', handleKey); clearT
         </div>
       </div>
       <div class="practice-stack"><span class="annotation">{{ t('design.daily_tools') }}</span>
-        <p>Laravel / PHP · Nuxt / Vue · TypeScript · Docker</p>
+        <p>Laravel / PHP · Nuxt / Vue · TypeScript · Docker · SQL</p>
       </div>
     </div>
   </section>

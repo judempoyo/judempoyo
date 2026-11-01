@@ -18,6 +18,8 @@ logs
 .fleet
 .idea
 
+public/.presence.json
+
 # Local env files
 .env
 .env.*

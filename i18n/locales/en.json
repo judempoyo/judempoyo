@@ -22,9 +22,9 @@
     "role_secondary": "And keep them running.",
     "manifesto_ver": "From code to server",
     "description_1": "Laravel, Nuxt/Vue, TypeScript and Docker.",
-    "description_2": "I build web products, then deploy them and look after them on my own infrastructure.",
+    "description_2": "I build web products — Laravel, Vue, TypeScript — then deploy them and look after them on my own servers.",
     "description_3": "A product to build, an interface to rework or an app to put online? Get in touch.",
-    "social_proof": "Frontend contributor to Miabi and GoPosta. I’ve installed Miabi on servers and deployed apps on it.",
+    "social_proof": "Latest live work: Smart Cyberspace. Frontend contributor to Miabi and GoPosta. I install Miabi and deploy apps on it.",
     "cta_services": "See my work",
     "cta_connect": "Let’s work together",
     "identity": "Jude Mpoyo · Full-stack developer",
@@ -36,7 +36,7 @@
     "section_id": "02 / About",
     "title": "I’m Jude, a developer in Kolwezi.",
     "bio_1": "I do full-stack work with Laravel/PHP, Nuxt/Vue, TypeScript and Docker, from Kolwezi in the DRC.",
-    "bio_2": "I built the frontend of Uzaraka with a team, sent fixes and interface components to Miabi and GoPosta, and deploy applications on my own infrastructure.",
+    "bio_2": "At Smart Cyberspace I shipped business modules, moved a backend to Laravel 11, and tightened SQL queries. Before that I work on Uzaraka’s frontend with a team (the site is no longer online), and sent interface fixes to Miabi and GoPosta.",
     "bio_3": "I’m getting deeper into DevOps and learning Go. My merged contributions to Miabi and GoPosta are frontend work.",
     "specs": {
       "title": "In practice",
@@ -55,6 +55,11 @@
     "mode": "Selection",
     "logs": [
       {
+        "date": "Canada",
+        "event": "Smart Cyberspace",
+        "detail": "Business modules, Laravel 11 migration, SQL work. The site is live."
+      },
+      {
         "date": "Jul – Sep 2026",
         "event": "Miabi",
         "detail": "Six frontend PRs merged into the console. I’ve also installed the platform on servers and deployed applications on it."
@@ -67,7 +72,7 @@
       {
         "date": "Team",
         "event": "Uzaraka",
-        "detail": "Frontend in Nuxt 3, with a team, for a classifieds platform built for the DRC."
+        "detail": "Frontend in Nuxt 3, with a team, for a classifieds platform built for the DRC. The product is no longer online."
       }
     ]
   },
@@ -85,12 +90,20 @@
     "title": "Products, contributions, operations.",
     "listing": "{count} projects, with my role and what backs it up.",
     "debug_note": "My role and the results are here. The details give context and PR links.",
+    "smartcyberspace": {
+      "title": "Smart Cyberspace Inc",
+      "description": "A Canadian company focused on software engineering, cybersecurity and AI solutions.",
+      "infra": "Laravel 11 / Vue.js / Tailwind CSS / Miabi / SQL",
+      "role": "Business modules, backend architecture migration to Laravel 11, and SQL query optimization.",
+      "result": "The site is live: smartcyberspace.ca.",
+      "details": "The performance work was moving the backend to Laravel 11, tightening SQL queries, and keeping a Vue / Tailwind interface deployed with Miabi."
+    },
     "uzaraka": {
       "title": "Uzaraka",
       "description": "A classifieds platform for the DRC, built by a team: publishing and managing listings, search, secure messaging and performance tracking.",
       "infra": "Nuxt 3 frontend",
       "role": "Frontend with Nuxt 3, as part of the team. The repository is private.",
-      "result": "The platform is live. I built the frontend; the full product is the whole team’s work.",
+      "result": "The product is no longer online. I works on the frontend; the rest was the team’s work.",
       "details": "What I learned there: WebSocket, Redis caching and good Git practice on a team."
     },
     "laraapistarter": {
@@ -101,7 +114,7 @@
       "result": "Public source code."
     },
     "cta_doc": "Read the documentation",
-    "cta_live": "Visit Uzaraka",
+    "cta_live": "Visit the site",
     "cta_docs": "View the code",
     "cta_footer": "Want to see the rest?",
     "cta_github": "My GitHub",
@@ -109,8 +122,9 @@
     "result_label": "Evidence",
     "details_label": "Context and contributions",
     "status_label": "Access:",
-    "live_status": "Live product",
-    "source_status": "Public repository",
+    "live_status": "Live",
+    "source_status": "Public code",
+    "offline_status": "Offline",
     "miabi": {
       "title": "Miabi",
       "description": "A self-hosted PaaS written in Go and Vue 3. I contribute to its web console and use it to deploy and manage applications.",
@@ -175,13 +189,13 @@
     "toggle_theme": "Switch color theme",
     "skip": "Skip to content",
     "country": "DRC",
-    "edition": "Independent production journal",
+    "edition": "Kolwezi · 2026",
     "hero_role": "Jude Mpoyo / Full-stack developer",
-    "hero_line_1": "I build it.",
-    "hero_line_2": "I deploy it.",
-    "hero_line_3": "I keep it running.",
-    "diagram_label": "How I work: build with Laravel and Nuxt, deploy with Docker and Miabi, operate on my own infrastructure.",
-    "field_note": "Field notes",
+    "hero_line_1": "I build the product.",
+    "hero_line_2": "I put it online.",
+    "hero_line_3": "I stay when it breaks.",
+    "diagram_label": "How I work: build with Laravel, Go and Nuxt, deploy with Docker and Miabi, operate on my own infrastructure.",
+    "field_note": "How I work",
     "build": "Build",
     "deploy": "Deploy",
     "operate": "Operate",
@@ -190,12 +204,13 @@
     "go_title": "Go, next.",
     "go_status": "Learning Go",
     "scroll": "Work",
-    "work_title": "What I’ve actually done.",
-    "work_intro": "A product built with a team, contributions to open-source interfaces, and infrastructure I run myself.",
+    "work_title": "What I’ve actually shipped.",
+    "work_intro": "A Laravel job still online, a team frontend that went offline, open-source PRs, and infrastructure I run myself.",
     "work_note": "Miabi and GoPosta are written in Go. My merged contributions are to their frontend.",
     "platform_stack": "Project technologies",
     "explore_contributions": "See the contributions",
     "project_types": {
+      "smartcyberspace": "Assignment / Laravel & Vue",
       "uzaraka": "Team project / Frontend",
       "miabi": "Open source / Operations",
       "goposta": "Open source / Frontend",
@@ -249,8 +264,8 @@
     "contact_line_2": "Let’s talk.",
     "next_step": "To get started",
     "contact_note": "A few lines on what you need, your timeline and the context are enough. We continue from there.",
-    "seo_title": "Freelance Full-stack Developer · Laravel, Nuxt & DevOps",
-    "seo_description": "Jude Mpoyo, full-stack developer in Kolwezi, DRC. Laravel, Nuxt/Vue, Docker and self-hosted infrastructure. Learning Go. Open to freelance and remote work.",
+    "seo_title": "Freelance Full-stack Developer · Laravel, Vue & DevOps",
+    "seo_description": "Jude Mpoyo, full-stack developer in Kolwezi, DRC. Laravel 11, Vue/Nuxt, Docker, Miabi. Work for Smart Cyberspace, contributions to Miabi and GoPosta. Open to freelance and remote work.",
     "photo_label": "The face behind the code",
     "photo_role": "Full-stack developer · Kolwezi, DRC",
     "easter_title": "You’re still here.",
@@ -266,8 +281,8 @@
     "welcome": "Browse my work, the production notes or ways to reach me. This is a portfolio interface, not a shell on a server. Pick a shortcut or type help.",
     "command": "Command",
     "run": "Run command",
-    "help": "EXPLORE\nwhoami / about: my profile\nprojects / ls: selected work\nproject miabi / uzaraka / goposta / laraapistarter: project details\nproofs: direct links to contributions\ntools / stack: technologies\ngo: learning Go\nservices: work I can take on\nincident tls: the Miabi incident\nlocation / date: Kolwezi and local time\nsearch [word]: search the projects\n\nCONTACT\ncontact / whatsapp / github / linkedin: contact links\n\nNAVIGATE & CUSTOMIZE\nopen work / tools / about / contact / go\ntheme light / dark / system\nlang en / fr\nminimize / maximize / exit\n\nSESSION\nhistory / clear / shortcuts / readme\nArrow keys browse previous commands. Tab completes a suggestion.",
-    "projects": "Uzaraka: Nuxt frontend, team project.\nMiabi: Vue console contributions, and running the platform.\nGoPosta: frontend contributions.\nLaraApiStarter: Laravel API starter.\nThe Work link below opens that section.",
+    "help": "EXPLORE\nwhoami / about: my profile\nprojects / ls: selected work\nproject smartcyberspace / uzaraka / miabi / goposta / laraapistarter: project details\nproofs: direct links to contributions\ntools / stack: technologies\ngo: learning Go\nservices: work I can take on\nincident tls: the Miabi incident\nlocation / date: Kolwezi and local time\nsearch [word]: search the projects\n\nCONTACT\ncontact / whatsapp / github / linkedin: contact links\n\nNAVIGATE & CUSTOMIZE\nopen work / tools / about / contact / go\ntheme light / dark / system\nlang en / fr\nminimize / maximize / exit\n\nSESSION\nhistory / clear / shortcuts / readme\nArrow keys browse previous commands. Tab completes a suggestion.",
+    "projects": "Smart Cyberspace: Laravel 11, Vue, SQL, live.\nUzaraka: Nuxt frontend, team project, offline.\nMiabi: Vue console contributions, and running the platform.\nGoPosta: frontend contributions.\nLaraApiStarter: Laravel API starter.\nThe Work link below opens that section.",
     "go": "Go: learning, with a DevOps direction.\nMiabi and GoPosta are written in Go; my merged contributions are frontend.",
     "contact": "Email: mpoyojude0{'@'}gmail.com\nLinkedIn: linkedin.com/in/judempoyo\nFreelance, remote and contract work.\nThe email link below opens your mail app.",
     "unknown": "Command not found. Try help, projects, go, stack, contact, clear or exit.",
@@ -288,10 +303,14 @@
     "complete": "complete",
     "resume": "Resume terminal",
     "proofs": "A selection of merged frontend contributions to Miabi and GoPosta. The links go to the work itself; this list is not a live counter.",
-    "services": "Work I can take on:\n- Web products with Laravel/PHP and Nuxt/Vue.\n- Interfaces, responsive layouts and TypeScript.\n- Deploying and running applications with Docker and Miabi.\n\nGo is still something I’m learning. Tell me what you need and when, and we’ll work out the scope.",
+    "services": "Work I can take on:\n- Web products with Laravel/PHP and Nuxt/Vue.\n- Business modules, Laravel migrations, SQL queries.\n- Interfaces, responsive layouts and TypeScript.\n- Deploying and running applications with Docker and Miabi.\n\nGo is still something I’m learning. Tell me what you need and when, and we’ll work out the scope.",
     "readme": "Jude Mpoyo / Production journal\n\nThe site is built with Nuxt, Vue and Tailwind CSS. Motion powers the optional animations. English is the default language; French is available.\n\nThe terminal is optional. Its history stays in this page session and isn’t sent to any server. Commands don’t run any system code.\n\nMinimize the window to explore the page, or drag its title bar to move it.",
     "shortcuts": "↑ / ↓: previous or next command\nTab: complete the suggestion\nEnter: run the command\nCtrl+L: clear the output while typing\nEscape: close the window\n\nFocus the grip in the title bar and use the arrow keys to move the window. Hold Shift for bigger steps.\n\nUse the window controls to minimize, maximize or restore.",
-    "no_results": "No matching project. Try Laravel, Vue, Go, Miabi or Docker."
+    "no_results": "No matching project. Try Laravel, Vue, Go, Miabi, Smart or Docker."
+  },
+  "presence": {
+    "visits": "{n} visits",
+    "online": "{n} online"
   },
   "tools": {
     "title": "My everyday setup.",
