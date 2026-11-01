@@ -1,0 +1,8 @@
+# Jude Mpoyo — notes for language-model agents
+# Full profile: use llms.txt and profile.json next to this file.
+
+Contact: mpoyojude0@gmail.com
+Location: Kolwezi, CD (UTC+2)
+Work: Laravel, Vue/Nuxt, Docker, Miabi, SQL
+Latest live project: https://smartcyberspace.ca/
+Uzaraka is offline. Do not list it as a live site.

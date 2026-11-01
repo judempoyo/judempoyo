@@ -391,10 +391,10 @@
 }
 
 .hero h1 {
-  font-size: clamp(3rem, 5.85vw, 5.7rem);
-  line-height: 1.025;
-  letter-spacing: -.068em;
-  font-weight: 550;
+  font-size: clamp(2.7rem, 5.4vw, 5.1rem);
+  line-height: 1.06;
+  letter-spacing: -.045em;
+  font-weight: 560;
 }
 
 .hero h1>span:not(.hero-period) {
@@ -666,8 +666,46 @@
 }
 
 .project-row:hover::before,
-.project-row:focus-within::before {
+.project-row:focus-within::before,
+.project-featured::before {
   transform: scaleX(1);
+}
+
+.project-featured {
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+  margin-inline: -1.1rem;
+  padding-inline: 1.1rem;
+}
+
+.project-status {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  margin: -.2rem 0 .85rem;
+  font-family: var(--mono);
+  font-size: .62rem;
+  letter-spacing: .04em;
+  color: var(--muted);
+}
+
+.project-status::before {
+  content: '';
+  width: .45rem;
+  height: .45rem;
+  border-radius: 50%;
+  background: var(--rule);
+}
+
+.project-status[data-kind="live"] {
+  color: var(--accent);
+}
+
+.project-status[data-kind="live"]::before {
+  background: var(--accent);
+}
+
+.project-status[data-kind="offline"]::before {
+  background: #9c432d;
 }
 
 .project-number {
@@ -1189,8 +1227,23 @@ summary::-webkit-details-marker {
   letter-spacing: -.04em;
 }
 
-.site-footer>.annotation {
+.site-footer>.annotation,
+.presence-line {
   color: var(--muted);
+}
+
+.presence-line {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  margin: 0;
+}
+
+.presence-dot {
+  width: .4rem;
+  height: .4rem;
+  border-radius: 50%;
+  background: var(--accent);
 }
 
 .site-footer .text-link {
@@ -1660,6 +1713,11 @@ summary::-webkit-details-marker {
     row-gap: 1.4rem;
   }
 
+  .project-featured {
+    margin-inline: -20px;
+    padding-inline: 20px;
+  }
+
   .project-identity h3 {
     font-size: 2rem;
   }
@@ -1768,6 +1826,10 @@ summary::-webkit-details-marker {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: .6rem;
+  }
+
+  .presence-line {
+    grid-column: 1 / -1;
   }
 
   .site-footer>.annotation {

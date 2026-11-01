@@ -22,9 +22,9 @@
     "role_secondary": "Et je les garde en ligne.",
     "manifesto_ver": "Du code jusqu’au serveur",
     "description_1": "Laravel, Nuxt/Vue, TypeScript et Docker.",
-    "description_2": "Je construis des produits web, puis je les déploie et je m’en occupe sur ma propre infrastructure.",
+    "description_2": "Je construis des produits web — Laravel, Vue, TypeScript — puis je les déploie et je m’en occupe sur mes serveurs.",
     "description_3": "Un produit à construire, une interface à reprendre ou une application à mettre en ligne ? Écrivez-moi.",
-    "social_proof": "Contributeur frontend sur Miabi et GoPosta. J’ai installé Miabi sur des serveurs et déployé des applications dessus.",
+    "social_proof": "Dernier travail en ligne : Smart Cyberspace. Contributeur frontend sur Miabi et GoPosta. J’installe Miabi et j’y déploie des applications.",
     "cta_services": "Voir mes réalisations",
     "cta_connect": "Travaillons ensemble",
     "identity": "Jude Mpoyo · Développeur full-stack",
@@ -36,7 +36,7 @@
     "section_id": "02 / À propos",
     "title": "Je suis Jude, développeur à Kolwezi.",
     "bio_1": "Je fais du full-stack avec Laravel/PHP, Nuxt/Vue, TypeScript et Docker, depuis Kolwezi, en RDC.",
-    "bio_2": "J’ai fait le frontend d’Uzaraka au sein d’une équipe, j’ai envoyé des correctifs et des composants d’interface à Miabi et GoPosta, et je déploie des applications sur ma propre infrastructure.",
+    "bio_2": "Chez Smart Cyberspace, j’ai livré des modules métier, migré un backend vers Laravel 11 et nettoyé des requêtes SQL. Avant ça, j’ai fait le frontend d’Uzaraka en équipe (le site n’est plus en ligne), et j’ai envoyé des correctifs d’interface à Miabi et GoPosta.",
     "bio_3": "Je me forme au DevOps et à Go. Mes contributions fusionnées sur Miabi et GoPosta sont côté frontend.",
     "specs": {
       "title": "En pratique",
@@ -55,6 +55,11 @@
     "mode": "Sélection",
     "logs": [
       {
+        "date": "Canada",
+        "event": "Smart Cyberspace",
+        "detail": "Modules métier, migration Laravel 11, optimisation SQL. Le site est en ligne."
+      },
+      {
         "date": "Juil. – sept. 2026",
         "event": "Miabi",
         "detail": "Six PR frontend fusionnées sur la console. J’ai aussi installé la plateforme sur des serveurs et déployé des applications dessus."
@@ -67,7 +72,7 @@
       {
         "date": "Équipe",
         "event": "Uzaraka",
-        "detail": "Frontend en Nuxt 3, avec une équipe, pour une plateforme de petites annonces destinée à la RDC."
+        "detail": "Frontend en Nuxt 3, avec une équipe, pour une plateforme de petites annonces destinée à la RDC. Le produit n’est plus en ligne."
       }
     ]
   },
@@ -85,12 +90,20 @@
     "title": "Produits, contributions, exploitation.",
     "listing": "{count} projets, avec mon rôle et ce qui le prouve.",
     "debug_note": "Mon rôle et les résultats sont ici. Les détails donnent le contexte et les liens vers les PR.",
+    "smartcyberspace": {
+      "title": "Smart Cyberspace Inc",
+      "description": "Entreprise canadienne spécialisée en ingénierie logicielle, cybersécurité et solutions IA.",
+      "infra": "Laravel 11 / Vue.js / Tailwind CSS / Miabi / SQL",
+      "role": "Modules métier, migration de l’architecture backend vers Laravel 11, et optimisation des requêtes SQL.",
+      "result": "Le site tourne : smartcyberspace.ca.",
+      "details": "Le chantier côté perf : passer le backend sur Laravel 11, alléger les requêtes SQL, et garder une interface Vue / Tailwind déployée avec Miabi."
+    },
     "uzaraka": {
       "title": "Uzaraka",
       "description": "Une plateforme de petites annonces pour la RDC, construite en équipe : publication et gestion d’annonces, recherche, messagerie sécurisée et suivi des performances.",
       "infra": "Frontend Nuxt 3",
       "role": "Frontend avec Nuxt 3, au sein de l’équipe. Le dépôt est privé.",
-      "result": "La plateforme est en ligne. J’ai fait le frontend ; le produit complet est le travail de toute l’équipe.",
+      "result": "Le produit n’est plus en ligne. J’ai fait le frontend ; le reste était le travail de l’équipe.",
       "details": "Ce que j’y ai appris : WebSocket, cache Redis et les bonnes pratiques Git en équipe."
     },
     "laraapistarter": {
@@ -101,7 +114,7 @@
       "result": "Code source public."
     },
     "cta_doc": "Lire la documentation",
-    "cta_live": "Visiter Uzaraka",
+    "cta_live": "Voir le site",
     "cta_docs": "Voir le code",
     "cta_footer": "Envie de voir le reste ?",
     "cta_github": "Mon GitHub",
@@ -109,8 +122,9 @@
     "result_label": "Preuves",
     "details_label": "Contexte et contributions",
     "status_label": "Accès :",
-    "live_status": "Produit en ligne",
-    "source_status": "Dépôt public",
+    "live_status": "En ligne",
+    "source_status": "Code public",
+    "offline_status": "Hors ligne",
     "miabi": {
       "title": "Miabi",
       "description": "Un PaaS auto-hébergé écrit en Go et Vue 3. Je contribue à sa console web et je m’en sers pour déployer et gérer des applications.",
@@ -175,13 +189,13 @@
     "toggle_theme": "Changer de thème",
     "skip": "Aller au contenu",
     "country": "RDC",
-    "edition": "Journal de production indépendant",
+    "edition": "Kolwezi · 2026",
     "hero_role": "Jude Mpoyo / Développeur full-stack",
-    "hero_line_1": "Je le développe.",
-    "hero_line_2": "Je le déploie.",
-    "hero_line_3": "Je le garde en ligne.",
+    "hero_line_1": "Je construis le produit.",
+    "hero_line_2": "Je le mets en ligne.",
+    "hero_line_3": "Je reste quand ça casse.",
     "diagram_label": "Ma façon de travailler : développer avec Laravel et Nuxt, déployer avec Docker et Miabi, exploiter sur ma propre infrastructure.",
-    "field_note": "Notes de terrain",
+    "field_note": "Comment je travaille",
     "build": "Développer",
     "deploy": "Déployer",
     "operate": "Exploiter",
@@ -190,12 +204,13 @@
     "go_title": "Go, la suite.",
     "go_status": "Go en apprentissage",
     "scroll": "Réalisations",
-    "work_title": "Ce que j’ai fait, concrètement.",
-    "work_intro": "Un produit construit en équipe, des contributions à des interfaces open source, et de l’infrastructure que je gère moi-même.",
+    "work_title": "Ce que j’ai vraiment livré.",
+    "work_intro": "Un chantier Laravel encore en ligne, un frontend d’équipe désormais hors ligne, des PR open source, et de l’infra que je gère moi-même.",
     "work_note": "Miabi et GoPosta sont écrits en Go. Mes contributions fusionnées concernent leur frontend.",
     "platform_stack": "Technologies du projet",
     "explore_contributions": "Voir les contributions",
     "project_types": {
+      "smartcyberspace": "Mission / Laravel & Vue",
       "uzaraka": "Projet d’équipe / Frontend",
       "miabi": "Open source / Exploitation",
       "goposta": "Open source / Frontend",
@@ -249,8 +264,8 @@
     "contact_line_2": "Parlons-en.",
     "next_step": "Pour commencer",
     "contact_note": "Quelques lignes sur le besoin, le calendrier et le contexte suffisent. On continue à partir de là.",
-    "seo_title": "Développeur full-stack freelance · Laravel, Nuxt & DevOps",
-    "seo_description": "Jude Mpoyo, développeur full-stack à Kolwezi, RDC. Laravel, Nuxt/Vue, Docker et infrastructure auto-hébergée. Go en apprentissage. Missions freelance et à distance.",
+    "seo_title": "Développeur full-stack freelance · Laravel, Vue & DevOps",
+    "seo_description": "Jude Mpoyo, développeur full-stack à Kolwezi, RDC. Laravel 11, Vue/Nuxt, Docker, Miabi. Travail pour Smart Cyberspace, contributions Miabi et GoPosta. Missions freelance et à distance.",
     "photo_label": "Le visage derrière le code",
     "photo_role": "Développeur full-stack · Kolwezi, RDC",
     "easter_title": "Vous êtes encore là.",
@@ -266,8 +281,8 @@
     "welcome": "Parcourez mes réalisations, les notes de production ou les moyens de me contacter. C’est une interface de portfolio, pas un shell sur un serveur. Choisissez un raccourci ou tapez help.",
     "command": "Commande",
     "run": "Exécuter la commande",
-    "help": "EXPLORER\nwhoami / about : mon profil\nprojects / ls : les réalisations\nproject miabi / uzaraka / goposta / laraapistarter : détail d’un projet\nproofs : liens directs vers les contributions\ntools / stack : technologies\ngo : apprentissage de Go\nservices : missions possibles\nincident tls : l’incident Miabi\nlocation / date : Kolwezi et l’heure locale\nsearch [mot] : chercher dans les projets\n\nCONTACTER\ncontact / whatsapp / github / linkedin : liens de contact\n\nNAVIGUER ET PERSONNALISER\nopen work / tools / about / contact / go\ntheme light / dark / system\nlang en / fr\nminimize / maximize / exit\n\nSESSION\nhistory / clear / shortcuts / readme\nLes flèches parcourent l’historique. Tab complète une suggestion.",
-    "projects": "Uzaraka : frontend Nuxt, projet d’équipe.\nMiabi : contributions à la console Vue, et exploitation de la plateforme.\nGoPosta : contributions frontend.\nLaraApiStarter : base d’API Laravel.\nLe lien Réalisations ci-dessous ouvre la section correspondante.",
+    "help": "EXPLORER\nwhoami / about : mon profil\nprojects / ls : les réalisations\nproject smartcyberspace / uzaraka / miabi / goposta / laraapistarter : détail d’un projet\nproofs : liens directs vers les contributions\ntools / stack : technologies\ngo : apprentissage de Go\nservices : missions possibles\nincident tls : l’incident Miabi\nlocation / date : Kolwezi et l’heure locale\nsearch [mot] : chercher dans les projets\n\nCONTACTER\ncontact / whatsapp / github / linkedin : liens de contact\n\nNAVIGUER ET PERSONNALISER\nopen work / tools / about / contact / go\ntheme light / dark / system\nlang en / fr\nminimize / maximize / exit\n\nSESSION\nhistory / clear / shortcuts / readme\nLes flèches parcourent l’historique. Tab complète une suggestion.",
+    "projects": "Smart Cyberspace : Laravel 11, Vue, SQL, en ligne.\nUzaraka : frontend Nuxt, projet d’équipe, hors ligne.\nMiabi : contributions à la console Vue, et exploitation de la plateforme.\nGoPosta : contributions frontend.\nLaraApiStarter : base d’API Laravel.\nLe lien Réalisations ci-dessous ouvre la section correspondante.",
     "go": "Go : en apprentissage, avec une orientation DevOps.\nMiabi et GoPosta sont écrits en Go ; mes contributions fusionnées sont côté frontend.",
     "contact": "Email : mpoyojude0{'@'}gmail.com\nLinkedIn : linkedin.com/in/judempoyo\nMissions freelance, à distance et contrats.\nLe lien email ci-dessous ouvre votre messagerie.",
     "unknown": "Commande inconnue. Essayez help, projects, go, stack, contact, clear ou exit.",
@@ -288,10 +303,14 @@
     "complete": "compléter",
     "resume": "Reprendre le terminal",
     "proofs": "Une sélection de contributions frontend fusionnées sur Miabi et GoPosta. Les liens mènent au travail lui-même ; cette liste n’est pas un compteur en temps réel.",
-    "services": "Missions possibles :\n- Produits web avec Laravel/PHP et Nuxt/Vue.\n- Interfaces, adaptation responsive et TypeScript.\n- Déploiement et exploitation d’applications avec Docker et Miabi.\n\nGo reste un apprentissage en cours. Décrivez-moi le besoin et le calendrier, on verra ensemble le périmètre.",
+    "services": "Missions possibles :\n- Produits web avec Laravel/PHP et Nuxt/Vue.\n- Modules métier, migrations Laravel, requêtes SQL.\n- Interfaces, adaptation responsive et TypeScript.\n- Déploiement et exploitation d’applications avec Docker et Miabi.\n\nGo reste un apprentissage en cours. Décrivez-moi le besoin et le calendrier, on verra ensemble le périmètre.",
     "readme": "Jude Mpoyo / Journal de production\n\nLe site utilise Nuxt, Vue et Tailwind CSS. Motion anime les interactions facultatives. L’anglais est la langue par défaut, avec une version française.\n\nLe terminal est optionnel. Son historique reste dans la session de cette page et n’est envoyé à aucun serveur. Les commandes n’exécutent aucun code système.\n\nRéduisez la fenêtre pour explorer la page, ou déplacez-la par sa barre de titre.",
     "shortcuts": "↑ / ↓ : commande précédente ou suivante\nTab : compléter la suggestion\nEntrée : exécuter la commande\nCtrl+L : effacer la sortie pendant la saisie\nÉchap : fermer la fenêtre\n\nPlacez le focus sur la poignée de la barre de titre et utilisez les flèches pour déplacer la fenêtre. Maj permet des déplacements plus grands.\n\nLes contrôles de fenêtre permettent de réduire, agrandir ou rétablir la taille.",
-    "no_results": "Aucun projet correspondant. Essayez Laravel, Vue, Go, Miabi ou Docker."
+    "no_results": "Aucun projet correspondant. Essayez Laravel, Vue, Go, Miabi, Smart ou Docker."
+  },
+  "presence": {
+    "visits": "{n} visites",
+    "online": "{n} en ligne"
   },
   "tools": {
     "title": "Mon environnement de travail.",

@@ -1,0 +1,62 @@
+{
+  "name": "Jude Mpoyo",
+  "jobTitle": "Full-stack developer",
+  "location": {
+    "locality": "Kolwezi",
+    "country": "CD",
+    "timeZone": "Africa/Lubumbashi"
+  },
+  "url": "https://jude.jkantech.net/jude/",
+  "email": "mpoyojude0@gmail.com",
+  "sameAs": [
+    "https://github.com/judempoyo",
+    "https://www.linkedin.com/in/judempoyo"
+  ],
+  "availability": ["freelance", "remote", "contracts"],
+  "languages": ["fr", "en"],
+  "stack": ["Laravel", "PHP", "Nuxt", "Vue", "TypeScript", "Docker", "Miabi", "PostgreSQL", "MySQL"],
+  "learning": ["Go"],
+  "projects": [
+    {
+      "id": "smartcyberspace",
+      "name": "Smart Cyberspace Inc",
+      "status": "live",
+      "url": "https://smartcyberspace.ca/",
+      "stack": ["Laravel 11", "Vue.js", "Tailwind CSS", "Miabi", "SQL"],
+      "role": "Business modules, Laravel 11 backend migration, SQL query optimization."
+    },
+    {
+      "id": "uzaraka",
+      "name": "Uzaraka",
+      "status": "offline",
+      "stack": ["Nuxt 3"],
+      "role": "Team Nuxt 3 frontend for a DRC classifieds platform. Site is no longer online."
+    },
+    {
+      "id": "miabi",
+      "name": "Miabi",
+      "status": "source",
+      "url": "https://github.com/miabi-io/miabi",
+      "stack": ["Vue 3", "Go"],
+      "role": "Frontend contributor and operator (installs and deploys on Miabi).",
+      "pullRequests": [50, 52, 58, 90, 214, 251]
+    },
+    {
+      "id": "goposta",
+      "name": "GoPosta / Posta",
+      "status": "source",
+      "url": "https://github.com/goposta/posta",
+      "stack": ["Vue", "Go"],
+      "role": "Frontend contributor.",
+      "pullRequests": [61, 69, 126]
+    },
+    {
+      "id": "laraapistarter",
+      "name": "LaraApiStarter",
+      "status": "source",
+      "url": "https://github.com/judempoyo/laraApiStarter",
+      "stack": ["Laravel 12", "Actions", "DTOs", "REST API"],
+      "role": "Personal Laravel API starter."
+    }
+  ]
+}

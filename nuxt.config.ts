@@ -37,7 +37,7 @@ export default defineNuxtConfig({
         const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>${en}</loc>${alternates}</url><url><loc>${fr}</loc>${alternates}</url></urlset>\n`
         await Promise.all([
           writeFile(resolve(directory, 'sitemap.xml'), sitemap),
-          writeFile(resolve(directory, 'robots.txt'), `User-agent: *\nAllow: ${baseURL}\nSitemap: ${siteBase}sitemap.xml\n`),
+          writeFile(resolve(directory, 'robots.txt'), `User-agent: *\nAllow: ${baseURL}\n\nUser-agent: GPTBot\nAllow: ${baseURL}\n\nUser-agent: ChatGPT-User\nAllow: ${baseURL}\n\nUser-agent: ClaudeBot\nAllow: ${baseURL}\n\nUser-agent: Anthropic-AI\nAllow: ${baseURL}\n\nUser-agent: Google-Extended\nAllow: ${baseURL}\n\nUser-agent: PerplexityBot\nAllow: ${baseURL}\n\nUser-agent: Applebot-Extended\nAllow: ${baseURL}\n\nSitemap: ${siteBase}sitemap.xml\n# Profile for language-model agents: ${siteBase}llms.txt\n`),
         ])
       },
     },
