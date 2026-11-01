@@ -16,7 +16,8 @@ const command = ref('')
 const dragging = ref(false)
 const position = reactive({ x: 24, y: 100 })
 const commandIndex = ref(-1)
-const commands = ['help', 'whoami', 'about', 'projects', 'project miabi', 'project uzaraka', 'project goposta', 'project laraapistarter', 'tools', 'go', 'contact', 'github', 'linkedin', 'whatsapp', 'open work', 'open tools', 'open about', 'open contact', 'theme light', 'theme dark', 'theme system', 'lang en', 'lang fr', 'services', 'proofs', 'incident tls', 'location', 'search vue', 'search docker', 'readme', 'shortcuts', 'date', 'pwd', 'ls', 'stack', 'history', 'clear', 'minimize', 'maximize', 'exit']
+const commands = ['help', 'whoami', 'about', 'projects', 'project smartcyberspace', 'project uzaraka', 'project miabi', 'project goposta', 'project laraapistarter', 'tools', 'go', 'contact', 'github', 'linkedin', 'whatsapp', 'open work', 'open tools', 'open about', 'open contact', 'theme light', 'theme dark', 'theme system', 'lang en', 'lang fr', 'services', 'proofs', 'incident tls', 'location', 'search vue', 'search docker', 'readme', 'shortcuts', 'date', 'pwd', 'ls', 'stack', 'history', 'clear', 'minimize', 'maximize', 'exit']
+const projectAliases: Record<string, string> = { smart: 'smartcyberspace', cyberspace: 'smartcyberspace', lara: 'laraapistarter', posta: 'goposta' }
 const suggestions = computed(() => {
   const value = command.value.trim().toLowerCase()
   return value ? commands.filter(item => item.startsWith(value) && item !== value).slice(0, 4) : []
@@ -117,10 +118,10 @@ const run = async (value = command.value) => {
     entry.text = `${t('terminal.language_set')} ${argument.toUpperCase()}`
     await setLocale(argument)
   } else if (name === 'project' && argument) {
-    const project = projects.value.find(item => item.id === argument)
+    const project = projects.value.find(item => item.id === argument || item.id === projectAliases[argument || ''])
     if (project) {
       entry.text = `${t(project.titleKey)}\n\n${t(project.descriptionKey)}\n\n${t(project.roleKey)}\n\n${t(project.resultKey)}`
-      const href = project.liveUrl || project.docsUrl
+      const href = project.isLive ? project.liveUrl : project.docsUrl
       if (href) entry.links = [{ label: t(project.isLive ? 'projects.cta_live' : 'projects.cta_docs'), href }]
     } else entry.text = t('terminal.unknown')
   } else if (normalized === 'pwd') {
