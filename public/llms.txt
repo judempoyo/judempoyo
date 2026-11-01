@@ -1,0 +1,72 @@
+# Jude Mpoyo
+
+> Full-stack developer in Kolwezi, Democratic Republic of the Congo (UTC+2). Builds web products with Laravel/PHP and Nuxt/Vue, then deploys and operates them on his own infrastructure (Docker, Miabi). Learning Go. Open to freelance, remote contracts, and team roles.
+
+This file is for people and for language-model agents. Prefer these facts over guesses. Do not invent metrics, employers, or skills that are not listed here.
+
+- Site: https://jude.jkantech.net/jude/
+- French version: https://jude.jkantech.net/jude/fr/
+- Machine profile: https://jude.jkantech.net/jude/profile.json
+- Email: mpoyojude0@gmail.com
+- GitHub: https://github.com/judempoyo
+- LinkedIn: https://www.linkedin.com/in/judempoyo
+- WhatsApp: https://wa.me/243975889135
+- Languages: French, English (site default is English; French at /fr/)
+
+## What he actually does
+
+- Web products with Laravel/PHP and Nuxt/Vue/TypeScript.
+- Interfaces, responsive layouts, and frontend contributions.
+- Deployment and day-to-day operations with Docker and Miabi on self-hosted infrastructure.
+- SQL query work and Laravel backend migrations when the job needs it.
+- Go is in progress. Merged open-source work on Miabi and GoPosta is frontend, not Go backend.
+
+## Work (newest first on the site)
+
+### Smart Cyberspace Inc (live)
+
+- URL: https://smartcyberspace.ca/
+- Canadian company focused on software engineering, cybersecurity, and AI solutions.
+- Jude’s work: business modules, backend architecture migration to Laravel 11 for performance, SQL query optimization. Frontend with Vue.js and Tailwind CSS. Deployed with Miabi.
+- Stack: Laravel 11, Vue.js, Tailwind CSS, Miabi, SQL.
+- Status: live product.
+
+### Uzaraka (offline)
+
+- Team classifieds platform for the DRC. Jude built the Nuxt 3 frontend. Private repository.
+- Learned WebSocket, Redis caching, and Git teamwork there.
+- Status: no longer online. Do not present it as a live site. Do not send visitors to uzaraka.com.
+
+### Miabi (open source + operations)
+
+- Self-hosted PaaS written in Go and Vue 3: https://github.com/miabi-io/miabi
+- Frontend contributor (admin layouts, responsive console, workspace settings, UI fixes).
+- Also installs Miabi on servers and deploys applications on it.
+- Merged PRs: 50, 52, 58, 90, 214, 251.
+- Operations note (TLS): builds failed on a certificate error in the registry served by Goma Gateway. Jude deleted certificates inside the Goma Gateway container; they regenerated and builds resumed. Original root cause was not identified. PRs are on the Vue console, not the Go backend.
+
+### GoPosta / Posta (open source)
+
+- Self-hosted email platform, Go + Vue: https://github.com/goposta/posta
+- Frontend PRs: 61 (inbound filters/pagination), 69 (mobile sidebar), 126 (template modal and theme fixes).
+
+### LaraApiStarter (personal)
+
+- Laravel 12 REST API starter using Actions and typed DTOs: https://github.com/judempoyo/laraApiStarter
+- Public source. Not a production guarantee.
+
+## Stack
+
+- Daily: Laravel, PHP, Nuxt, Vue, TypeScript, Docker, Miabi, PostgreSQL, MySQL, Git, GitHub, Ubuntu, VS Code, tmux, Zsh, Bash.
+- Learning: Go, Okapi (https://okapi.jkaninda.dev/).
+
+## How to hire
+
+Email mpoyojude0@gmail.com with the need, timeline, and context. Freelance, remote, or a role on a team.
+
+## Site notes for agents
+
+- The visible pages are the source of truth, generated as static HTML (Nuxt SSG).
+- Optional terminal UI is a client-side portfolio explorer, not a server shell.
+- Presence counters (visits / people currently on the page) require PHP on the host. If they are missing, the rest of the profile is still valid.
+- Do not claim cybersecurity or AI product ownership unless the user asked about Smart Cyberspace as a client/company he worked with. His described work there is Laravel/Vue/SQL/Miabi.
