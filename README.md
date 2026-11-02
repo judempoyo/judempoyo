@@ -1,147 +1,202 @@
-# Jude Mpoyo | Full-stack Developer
+ <div align="center">
 
-[![Nuxt](https://img.shields.io/badge/Nuxt-4.2-00DC82?logo=nuxt.js&logoColor=white)](https://nuxt.com)
-[![Stack](https://img.shields.io/badge/Stack-PHP%20%2F%20Laravel-8892BF?logo=laravel&logoColor=white)](https://laravel.com)
-[![Learning](https://img.shields.io/badge/Learning-Go-00ADD8?logo=go&logoColor=white)](https://go.dev)
+# JUDE MPOYO
 
-Portfolio of Jude Mpoyo, a full-stack developer based in Kolwezi, DRC. Built around web development, frontend contributions to Miabi and GoPosta, and deployment and operation on his own infrastructure. The main audience is people commissioning freelance and remote work.
+**FULL-STACK DEVELOPER**
 
-## 🏗 Concept: "Proof by Infrastructure"
+Backend Engineering · API Development · Software Architecture
 
-The design moves away from traditional creative portfolios to embrace a **technical documentation** aesthetic:
-- **Blueprint UI**: Monochromatic palette (Concrete/Chrome), 40px construction grid, and 1px technical borders.
-- **Log Level Interaction**: A global switch between `INFO` (summary) and `DEBUG` (additional technical context).
-- **YAML Stack**: Skills presented as infrastructure configuration files.
-- **Status Bar**: Profile information and a visitor-local clock; this is not infrastructure monitoring.
+Building applications, APIs and developer tools with an interest in clean architecture, maintainability and production environments.
 
-## 🛠 Tech Stack
+<br/>
 
-- **Framework**: Nuxt 4 / Vue 3
-- **Styling**: Tailwind CSS 4; legacy theme migration is a separate planned batch.
-- **I18n**: `@nuxtjs/i18n`, English by default and French at `/fr`. SEO and sitemap alignment are a separate planned batch.
-- **State**: Custom composables for Global Log Level management.
-- **Deployment**: Configured for SSG (Static Site Generation) with Nitro.
+[Portfolio](https://jude.jkantech.net/jude/) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/jude-mpoyo) &nbsp;·&nbsp; [Email](mailto:mpoyojude0@gmail.com) &nbsp;·&nbsp; [WhatsApp](https://wa.me/243975889135)
 
-## 🚀 Getting Started
+<br/>
 
-### Prerequisites
-- Node.js (Latest LTS)
-- npm or pnpm
+[![GitHub Followers](https://img.shields.io/github/followers/judempoyo?style=flat-square&logo=github&label=FOLLOWERS&color=161b22)](https://github.com/judempoyo)
+[![GitHub Stars](https://img.shields.io/github/stars/judempoyo?style=flat-square&logo=github&label=STARS&color=161b22)](https://github.com/judempoyo?tab=repositories)
 
-### Installation
-```bash
-# Install dependencies
-npm install
+<br/>
 
-# Run development server
-npm run dev
+<sub>DEMOCRATIC REPUBLIC OF THE CONGO &nbsp;·&nbsp; OPEN TO REMOTE OPPORTUNITIES AND COLLABORATIONS</sub>
 
-# Build for production (SSG)
-npm run generate
-```
-
-## 📂 Project Structure
-
-- `app/components/layout/`: Modular layout components (Header, Footer, Nav).
-- `app/components/sections/`: Technical data sheets for About, Projects, and Contact.
-- `app/composables/`: Technical state management (Log Levels, etc.).
-- `i18n/locales/`: English and French content in JSON format.
-
-## 🌐 Localization
-
-The main content is managed in `i18n/locales/*.json`, English first and French second. Some existing decorative labels and metadata still need localization in later batches.
-
-## Content evidence
-
-- Uzaraka: team project; Nuxt 3 frontend contribution; private repository.
-- Miabi: merged frontend contributions and hands-on server installations, with app deployment and management.
-- GoPosta: merged frontend contributions.
-- LaraApiStarter: Laravel 12 API starter with Actions and typed DTOs; no security or production-readiness guarantee.
-- No public Lighthouse score is claimed. Local audit reports are review artifacts, not deployed-site measurements.
+</div>
 
 ---
-**Designed by Jude Mpoyo // Built with Nuxt & Concrete Aesthetics**
 
-## Production journal design
+## 01 / About
 
-The default experience uses a warm paper, ink and copper palette, a system sans-serif for content and JetBrains Mono for annotations. Go is highlighted as an active learning direction, not claimed as a professional backend contribution.
+I build software across the application stack, with a particular focus on backend engineering, API design and application architecture.
 
-- Project contributions are linked individually, without maintenance-heavy PR totals.
-- Terminal mode opens an optional floating non-modal window and is lazy-loaded on request. Commands are a fixed allowlist, never evaluated as code.
-- Miabi's contribute/install/operate steps and the factual TLS incident are interactive.
-- Motion 14.0.0 drives the delivery diagram, scroll-linked production journal, project reveals and Go lettering. It is dynamically imported after initial page loading and is skipped entirely for reduced motion. Initial viewport text is never hidden. Animations use transforms and opacity. The measured standalone API bundle is 23.1 kB gzip; inspect the Nuxt build for the actual emitted scene chunk.
-- Tailwind v4 design tokens live in `app/assets/css/main.css`; the unused legacy JavaScript configuration has been removed.
-- The photo easter egg remains available via triple-click on the About signature, Ctrl+Shift+J, and the timed invitation. The portrait uses a native modal with keyboard focus containment and restoration; the terminal deliberately remains non-modal so the page can still be used.
+My work mainly revolves around **PHP, Laravel, Go, Vue.js and Nuxt**. I also use Docker and Linux to manage development environments and understand the operational side of applications.
 
-## Deployment base and contact configuration
+I care about the decisions behind the code: how an application is structured, how its components communicate, how it can evolve, and how easy it is to maintain.
 
-The site can be published at the domain root or under a subdirectory. `.env.example` documents `NUXT_APP_BASE_URL`, `NUXT_PUBLIC_SITE_URL` and `NUXT_PUBLIC_WHATSAPP_NUMBER`. Static output must be regenerated after configuration changes.
+This profile is a place where I share some of the things I build, explore and learn through software development.
 
-## Floating terminal and interactions
+## 02 / Technologies
 
-The terminal is a non-modal floating window: visitors can drag it, move it with keyboard arrows from the grip, minimize it to a dock or maximize it. It includes project details, contribution links, the TLS incident, tool information, search, contact links, theme/language commands, session history and completion. Command history is held in Nuxt client state; commands do not execute system code.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Motion entrances replay on viewport re-entry in either scroll direction. Hover and focus interactions add spring feedback to projects, tools, calls to action and the portrait. The delivery diagram loops only while in view and pauses in background tabs. All animation remains optional under reduced-motion preferences.
+**BACKEND**
 
-The About section now includes the existing portrait, while the original shortcut and timed invitation remain available. A dedicated toolbench separates current tools from Go, which is explicitly marked as a learning direction.
+PHP · Laravel · Go · REST APIs
 
+**FRONTEND**
 
-### Preview the static site locally
+Vue.js · Nuxt · TypeScript · Tailwind CSS
 
-```sh
-npm run generate:local
-npm run preview
-```
+</td>
+<td width="50%" valign="top">
 
-Open the local URL printed by the preview command. `generate:local` builds with
-`NUXT_APP_BASE_URL=/`, so assets resolve correctly when the output is served at
-localhost's root. It does not modify `.env`. Alternatively, after this local
-build, use `npx serve .output/public`.
+**DATABASES**
 
-A build generated with `/jude/` expects the **entire** output directory to be
-mounted under `/jude/`, including its assets. Serving that output at `/` does not
-simulate the production mount and can leave the page without styles.
+MySQL · SQLite
 
-### Build for deployment
+**INFRASTRUCTURE**
 
-```sh
-# Subdirectory: publish the output contents in the host's jude directory.
-NUXT_APP_BASE_URL=/jude/ npm run generate
+Docker · Docker Compose · Linux · Nginx
 
-# Domain root: publish the output contents in the host's public root.
-NUXT_APP_BASE_URL=/ npm run generate
-```
+**DEVELOPMENT TOOLS**
 
-Each generation replaces `.output/public`. Regenerate with the deployment base
-before publishing after a local preview. `NUXT_PUBLIC_SITE_URL` is the production
-origin only, without a path.
+Git · GitHub · Postman
 
-The unused Bunny font provider is disabled. JetBrains Mono still uses the Google
-provider during generation; uncached font downloads therefore require network
-access. This setting does not change Google site verification or analytics.
+</td>
+</tr>
+</table>
 
-### Apache / nginx hosting
+## 03 / GitHub Activity
 
-The exported `.htaccess` intentionally contains comments only. Static EN/FR pages
-are served from their generated directories without a rewrite fallback. This
-avoids `Options`, `Header`, and rewrite directives that restricted hosting can
-reject with HTTP 500. Replace the previously deployed `.htaccess` too; uploading
-only visible files may leave the old hidden file in place. Publish the contents
-of `.output/public`, not the source `public` directory.
+<div align="center">
 
-An nginx response header does not identify which server ultimately reads
-`.htaccess`; nginx may proxy to Apache. If HTTP 500 persists with the minimal
-file, consult the hosting error log or ask the host for the exact rejected
-directive. No root access is required to replace the site's own `.htaccess`.
+<sub>PROFILE STATISTICS</sub>
 
-### Offline fallback
+<br/><br/>
 
-A small service worker caches only `offline.html` after a successful connected
-visit. It intercepts navigation failures within the configured base path and
-shows a self-contained EN/FR profile and contact page. It does not cache the live
-portfolio, analytics, or third-party requests. Registration requires HTTPS (or
-localhost) and is disabled in development. A first-ever visit without a network
-connection cannot download this fallback. The retry button reloads the original
-URL; network detection alone is not proof that the server is reachable.
+<a href="https://github.com/judempoyo">
+<img src="https://github-stats-extended.vercel.app/api?username=judempoyo&show_icons=true&include_all_commits=true&locale=en&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" height="170" alt="Statistiques GitHub"/>
+</a>
+<a href="https://github.com/judempoyo">
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=judempoyo&layout=compact&langs_count=6&locale=en&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" height="170" alt="Langages les plus utilisés"/>
+</a>
 
-When changing the fallback page, increment the cache version in `public/sw.js`.
+<br/><br/>
+
+<sub>CONTRIBUTION ACTIVITY</sub>
+
+<br/><br/>
+
+<a href="https://github.com/judempoyo">
+<img src="https://streak-stats.demolab.com?user=judempoyo&theme=dark&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&locale=en" width="75%" alt="Régularité des contributions GitHub"/>
+</a>
+
+</div>
+
+## 04 / Engineering Interests
+
+Beyond writing code, I enjoy exploring the engineering practices that make software more reliable and easier to evolve.
+
+Some of the subjects I pay attention to:
+
+- Application architecture and maintainable codebases.
+- API design and developer experience.
+- Containerization and deployment environments.
+- Linux, infrastructure and automation.
+- Open-source software and developer tooling.
+
+## 05 / Let's Connect
+
+Good software is rarely built in isolation. I'm interested in meeting developers, exchanging technical ideas and collaborating on useful projects.
+
+**I'm open to:**
+
+| Opportunity | What I'm interested in |
+|---|---|
+| Professional opportunities | Backend and Full-Stack development |
+| Technical collaborations | Building and improving software together |
+| Open Source | Contributing to useful tools and projects |
+| Technical discussions | Architecture, APIs, Laravel, Go and infrastructure |
+
+Have an idea, a project, or simply something technical worth discussing?
+
+**Let's get in touch.**
+
+<div align="center">
+
+<br/>
+
+[![EXPLORE MY GITHUB](https://img.shields.io/badge/EXPLORE-My%20GitHub-161b22?style=for-the-badge&logo=github&logoColor=58A6FF)](https://github.com/judempoyo)
+[![COLLABORATE](https://img.shields.io/badge/LET'S-Collaborate-161b22?style=for-the-badge&logo=github&logoColor=58A6FF)](mailto:mpoyojude0@gmail.com)
+
+<br/>
+
+[Portfolio](https://jude.jkantech.net/jude/) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/jude-mpoyo) &nbsp;·&nbsp; [Email](mailto:mpoyojude0@gmail.com)
+
+</div>
+
+---
+
+<details>
+<summary><strong>Version française</strong></summary>
+
+## 01 / À propos
+
+Je développe des logiciels sur différentes couches de l'application, avec un intérêt particulier pour le backend, la conception d'APIs et l'architecture applicative.
+
+Mon travail s'articule principalement autour de **PHP, Laravel, Go, Vue.js et Nuxt**. J'utilise également Docker et Linux pour gérer les environnements de développement et mieux comprendre les aspects opérationnels des applications.
+
+Je m'intéresse aux décisions qui se cachent derrière le code : comment une application est structurée, comment ses composants communiquent, comment elle peut évoluer et comment la maintenir facilement.
+
+Ce profil est un espace où je partage une partie de ce que je construis, expérimente et découvre dans le développement logiciel.
+
+## 02 / Technologies
+
+| Domaine | Technologies |
+|---|---|
+| Backend | PHP · Laravel · Go · APIs REST |
+| Frontend | Vue.js · Nuxt · TypeScript · Tailwind CSS |
+| Bases de données | MySQL · SQLite |
+| Infrastructure | Docker · Docker Compose · Linux · Nginx |
+| Outils de développement | Git · GitHub · Postman |
+
+## 03 / Activité GitHub
+
+Les statistiques ci-dessus donnent un aperçu de mon activité sur GitHub, des langages présents dans mes dépôts et de la régularité de mes contributions.
+
+## 04 / Intérêts techniques
+
+Au-delà du développement de fonctionnalités, j'aime explorer les pratiques d'ingénierie qui rendent les logiciels plus fiables et plus faciles à faire évoluer.
+
+Je m'intéresse notamment à :
+
+- L'architecture applicative et la maintenabilité du code.
+- La conception d'APIs et l'expérience développeur.
+- La conteneurisation et les environnements de déploiement.
+- Linux, l'infrastructure et l'automatisation.
+- Les logiciels Open Source et les outils de développement.
+
+## 05 / Échangeons
+
+J'aime échanger avec d'autres développeurs, partager des idées techniques et collaborer sur des projets utiles.
+
+Je suis ouvert aux opportunités professionnelles en développement backend et full-stack, aux collaborations techniques, aux projets Open Source et aux discussions autour de l'architecture, des APIs, de Laravel, de Go et de l'infrastructure.
+
+Tu as une idée, un projet ou simplement un sujet technique à discuter ?
+
+**N'hésite pas à me contacter.**
+
+<div align="center">
+
+[![EXPLORER MON GITHUB](https://img.shields.io/badge/EXPLORER-Mon%20GitHub-161b22?style=for-the-badge&logo=github&logoColor=58A6FF)](https://github.com/judempoyo)
+[![COLLABORER](https://img.shields.io/badge/ON-Collabore-161b22?style=for-the-badge&logo=github&logoColor=58A6FF)](mailto:mpoyojude0@gmail.com)
+
+<br/>
+
+[Portfolio](https://jude.jkantech.net/jude/) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/jude-mpoyo) &nbsp;·&nbsp; [Email](mailto:mpoyojude0@gmail.com)
+
+</div>
+
+</details>
