@@ -10,6 +10,10 @@ Building applications, APIs and developer tools with an interest in clean archit
 
 <br/>
 
+[Lire la version française ↓](#version-francaise)
+
+<br/>
+
 [Portfolio](https://jude.jkantech.net/jude/) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/jude-mpoyo) &nbsp;·&nbsp; [Email](mailto:mpoyojude0@gmail.com) &nbsp;·&nbsp; [WhatsApp](https://wa.me/243975889135)
 
 <br/>
@@ -47,18 +51,18 @@ PHP · Laravel · Go · REST APIs
 
 **FRONTEND**
 
-Vue.js · Nuxt · TypeScript · Tailwind CSS
+Vue.js · Nuxt · Tailwind CSS
 
 </td>
 <td width="50%" valign="top">
 
 **DATABASES**
 
-MySQL · SQLite
+PosgreSQL · MySQL · SQLite
 
 **INFRASTRUCTURE**
 
-Docker · Docker Compose · Linux · Nginx
+Docker · Miabi · Posta · Docker Compose · Linux · Nginx
 
 **DEVELOPMENT TOOLS**
 
@@ -140,7 +144,7 @@ Have an idea, a project, or simply something technical worth discussing?
 ---
 
 <details>
-<summary><strong>Version française</strong></summary>
+<summary id="version-francaise"><strong>Version française</strong></summary>
 
 ## 01 / À propos
 
@@ -157,9 +161,9 @@ Ce profil est un espace où je partage une partie de ce que je construis, expér
 | Domaine | Technologies |
 |---|---|
 | Backend | PHP · Laravel · Go · APIs REST |
-| Frontend | Vue.js · Nuxt · TypeScript · Tailwind CSS |
-| Bases de données | MySQL · SQLite |
-| Infrastructure | Docker · Docker Compose · Linux · Nginx |
+| Frontend | Vue.js · Nuxt · Tailwind CSS |
+| Bases de données | PostgreSQL · MySQL · SQLite |
+| Infrastructure | Docker · Miabi · Posta · Docker Compose · Linux |
 | Outils de développement | Git · GitHub · Postman |
 
 ## 03 / Activité GitHub
