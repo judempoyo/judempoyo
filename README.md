@@ -14,7 +14,7 @@ Building applications, APIs and developer tools with an interest in clean archit
 
 <br/>
 
-[Portfolio](https://jude.jkantech.net/jude/) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/jude-mpoyo) &nbsp;·&nbsp; [Email](mailto:mpoyojude0@gmail.com) &nbsp;·&nbsp; [WhatsApp](https://wa.me/243975889135)
+[Portfolio](https://jude.jkantech.net/jude/) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/judempoyo) &nbsp;·&nbsp; [Email](mailto:mpoyojude0@gmail.com) &nbsp;·&nbsp; [WhatsApp](https://wa.me/243975889135)
 
 <br/>
 
@@ -137,7 +137,7 @@ Have an idea, a project, or simply something technical worth discussing?
 
 <br/>
 
-[Portfolio](https://jude.jkantech.net/jude/) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/jude-mpoyo) &nbsp;·&nbsp; [Email](mailto:mpoyojude0@gmail.com)
+[Portfolio](https://jude.jkantech.net/jude/) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/judempoyo) &nbsp;·&nbsp; [Email](mailto:mpoyojude0@gmail.com)
 
 </div>
 
@@ -199,7 +199,7 @@ Tu as une idée, un projet ou simplement un sujet technique à discuter ?
 
 <br/>
 
-[Portfolio](https://jude.jkantech.net/jude/) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/jude-mpoyo) &nbsp;·&nbsp; [Email](mailto:mpoyojude0@gmail.com)
+[Portfolio](https://jude.jkantech.net/jude/) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/judempoyo) &nbsp;·&nbsp; [Email](mailto:mpoyojude0@gmail.com)
 
 </div>
 
